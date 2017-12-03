@@ -1,0 +1,385 @@
+.container {
+    max-width: 1176px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("../fonts/Helvetica/HelveticaRegular/HelveticaRegular.eot");
+    src: url("../fonts/Helvetica/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Helvetica/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+    url("../fonts/Helvetica/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul { /*for each element in this file*/
+    padding-left: 0;
+}
+
+a { /*for each a element in this file*/
+    text-decoration: none;
+}
+
+li { /*it's for each li element in this file*/
+    list-style: none;
+}
+
+.main {
+    border-top: 10px solid #2ecc71;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 105px;
+}
+
+.main .clearfix {
+    float: left;
+    box-sizing: border-box;
+}
+
+.main p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 36px;
+    margin: 0;
+}
+
+.main ul {
+    margin: 0;
+    padding-top: 26px;
+}
+
+.main li {
+    display: inline-flex;
+    padding-left: 14px;
+}
+
+.main ul a {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+.main .logo {
+    padding-top: 72px;
+}
+
+.main .apple_inc {
+    padding: 12px 17px 15px 15px;
+}
+
+.main .android {
+    padding: 14px 15px 14px 16px;
+}
+
+.main .windows {
+    padding: 14px 15px 14px 12px;
+}
+
+.main ul a:hover {
+    background-color: #2ecc71;
+    transition-duration: 0.5s;
+}
+
+.three-columns {/*the section with three functions begins here*/
+    padding: 60px 0 58px 0;
+}
+
+.three-columns .clearfix li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.three-columns img {
+    background-color: #2ecc71;
+    border-radius: 50px;
+    margin-bottom: 31px;
+}
+
+.three-columns li:nth-of-type(3) {
+    padding-left: 60px;
+}
+
+.three-columns li:nth-of-type(1) {
+    padding-right: 60px;
+}
+
+.three-columns li:nth-of-type(2) {
+    padding: 0 40px 0 37px;
+}
+
+.three-columns li.editable-theme img {
+    padding: 28px 27px 27px 28px;
+}
+
+.three-columns li.flat-design img {
+    padding: 24px 26px 26px 24px;
+}
+
+.three-columns li.audience img {
+    padding: 27px 26px 24px 25px;
+}
+
+.three-columns img {
+    transition-duration: 0.5s;
+}
+
+.three-columns img:hover {
+    opacity: 0.7;
+    transition-duration: 0.5s;
+}
+
+.three-columns h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin: 0 0 29px;
+}
+
+.three-columns p {
+    font-family: "Helvetica", sans-serif;
+    color: #848484;
+    font-size: 16px;
+    margin-top: 0;
+    line-height: 1.5;
+}/*the section with three functions finishes here*/
+
+.general {/*general information begins here*/
+    padding: 60px 0;
+    background-color: #c5c5c5;
+}
+
+.general div.container, .general .video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+.general h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: #222222;
+    margin-bottom: 25px;
+}
+
+.general p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    color: #848484;
+    line-height: 1.5;
+    margin-right: 146px;
+}
+
+.general form {
+    margin-top: 13px;
+}
+
+.general ul {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.general li {
+    display: inline-block;
+    margin: 0;
+}
+
+.general .sign-up input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+}
+
+#email {
+    border-radius: 10px 0 0 10px;
+    padding: 22px 80px 15px 26px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    color: #848484;
+}
+
+#notify {
+    border-radius: 0 10px 10px 0;
+    padding: 19px 40px 15px 38px;
+    background-color: #2ecc71;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+#notify:hover {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
+
+iframe {
+    border: none;
+    min-width: 500px;
+    min-height: 300px;
+}/*general information finishes here*/
+
+.connection {/*the section about connection with other people begins here*/
+    padding: 60px 0;
+}
+
+.connection li {
+    display: inline-block;
+}
+
+.connection blockquote {
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #848484;
+    text-align: center;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.connection .passages {
+    white-space: pre;
+}
+
+.connection .name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2e2e2e;
+    display: block;
+    text-align: center;
+    margin: 26px 0 29px 0;
+}
+
+.connection div.people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.connection div.people img {
+    transition-duration: 0.5s;
+}
+
+.connection div.people div:hover {
+    transition-duration: 0.5s;
+    background-color: #2ecc71;
+}
+
+.connection div.people img:hover {
+    transition-duration: 0.5s;
+    opacity: 0.5;
+}/*the section about connection with other people finishes here*/ /*I don't know how to make a green overlay*/
+
+.in-touch { /*the section with the links to another websites begins here*/
+    margin-bottom: 58px;
+}
+
+.in-touch .container {
+    text-align: center;
+}
+
+.in-touch h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+.in-touch p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    color: #848484;
+    margin-top: 21px;
+}
+
+.in-touch li {
+    display: inline-block;
+}
+
+.in-touch img {
+    background-color: #c5c5c5;
+    border-radius: 50px;
+}
+
+.in-touch img.twitter {
+    padding: 12px 8px 9px 9px;
+}
+
+.in-touch img.fb {
+    padding: 9px 13px 8px 12px;
+}
+
+.in-touch img.pint {
+    padding: 7px;
+}
+
+.in-touch img.google {
+    padding: 9px 6px 7px 9px;
+}
+
+.in-touch img.in {
+    padding: 9px 9px 10px 10px;
+}
+
+.in-touch img.yt {
+    padding: 5px 8px 7px 8px;
+}
+
+.in-touch img {
+    transition-duration: 0.5s;
+}
+
+.in-touch img:hover {/*changing background-color*/
+    background-color: #2ecc71;
+    transition-duration: 0.5s;
+}
+
+.in-touch ul {
+    margin-top: 25px;
+}/*the section with the links to another websites finishes here*/
+
+.navigation {/*the section with the main links all over the site begins here*/
+    padding: 60px 0 54px 0;
+    background-color: #e3e3e3;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.navigation li:not(:nth-of-type(1)) {
+    padding-left: 20px;
+}
+
+.navigation a {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    color: #848484;
+    transition-duration: 0.5s;
+}
+
+.navigation a:hover {
+    transition-duration: 0.5s;
+    opacity: 0.8;
+    text-decoration: underline;
+}/*the section with the main links all over the site finishes here*/

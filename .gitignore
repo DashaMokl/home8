@@ -1,0 +1,12 @@
+.idea
+.DS_Store
+.DS_Store?
+.video
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.vscode
+.iml
